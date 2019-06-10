@@ -5,9 +5,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Megan Fonde</title>
+    <!-- BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <!-- GOOGLE FONTS-->
+   <link href="https://fonts.googleapis.com/css?family=Dosis|Raleway&display=swap" rel="stylesheet">   
+   <!--MAIN CSS-->
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+    <!-- *NAVBAR-->
+    <section id="navbar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav" id="nav-content">
+                        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#about">About Me</a>
+                        <a class="nav-item nav-link" href="#projects">Projects</a>
+                        <a class="nav-item nav-link" href="#contact">Contact</a>
+                      </div>
+                    </div>
+                  </nav>
+
+    </section>
+    <!--HOME-->
+    <section id="home">
+            <header class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                      <h1 class="display-4">Megan Fonde</h1>
+                      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                    </div>
+                </header>
+    </section>
+    <!--PROJECTS-->
+    <section id="projects">
+            <div class="container">
+                    <div class="row">
+                      <div class="col-4 projects">
+                        <p>CSS Creature</p>
+                      </div>
+                      <div class="col-4 projects">
+                        <p>Static Layout</p>
+                      </div>
+                      <div class="col-4 projects">
+                        <p>API Project</p>
+                      </div>
+                    </div>
+                  </div>
+
+    </section>
+    <!--CONTACT-->
+    <section id="contact">
+            <div class="container">
+              <h2 class="text-center text-uppercase">Contact Me</h2>
+              <div class="row">
+                <form action="https://formspree.io/meganfonde@gmail.com" method="POST">
+                  <div class="control-group">
+                    <div class="form-group">
+                      <label>Name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Your Name"
+                        id="name"
+                        required
+                        data-validation-required-message="Please enter your name"
+                        name="name"
+                        >
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="form-group">
+                      <label>Email Address</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Your Email"
+                        id="email"
+                        required
+                        data-validation-required-message="Please enter your email"
+                        name="_replyto"
+                      >
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="form-group">
+                      <textarea
+                        class="form-control"
+                        rows="7"
+                        placeholder="Your Message"
+                        id="message"
+                        required
+                        data-validation-required-message="Please leave a message"
+                        name="message"
+                      ></textarea>
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div id="success"></div>
+                    <button type="submit" class="btn btn-lg btn-black">
+                      <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

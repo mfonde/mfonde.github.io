@@ -1,0 +1,8 @@
+.jumbotron{
+    background: url('../assets/icebergs.jpg') no-repeat center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: var(--fontOne);
+}
+
