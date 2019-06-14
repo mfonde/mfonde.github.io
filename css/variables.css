@@ -1,6 +1,12 @@
 :root{
     --blue: #086FA1;
     --orange: #f98500;
+    --coffeemugdark: #2d545a;
+    --coffeemugMedium: #467f88;
+    --coffeemuglight: #5F7B7B;
+    --navBarBackground: #F8F9FB;
+    --behindBackpackLeft: #B2B2B2;
+    --backpackDark: #37393f; 
 
     --fontOne: 'Dosis', sans-serif;
     --fontTwo: 'Raleway', sans-serif;

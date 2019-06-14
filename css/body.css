@@ -1,4 +1,6 @@
 body{
-    background: var(--blue);
+
+    background: var(--coffeemuglight);
     text-align: center;
+    color: white;
 }

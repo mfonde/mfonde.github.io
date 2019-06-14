@@ -1,8 +1,44 @@
-.jumbotron{
-    background: url('../assets/icebergs.jpg') no-repeat center;
+#header{
+    background: var(--behindBackpackLeft);
     background-size: cover;
+    height: 5vh;
+    font-size: 3vh;
+    text-decoration: none;
+    color: var(--backpackDark);
+    border-bottom: .5px solid var(--coffeemuglight);
+}
+
+a:link{
+    color: var(--backpackDark);
+}
+
+a:visited{
+    color: var(--backpackDark);
+}
+
+a:hover{
+    color: var(--backpackDark);
+}
+
+a:active{
+    color: var(--backpackDark);
+}
+
+
+
+.jumbotron{
+    background: url('../assets/laptop_backpack_coffeemug.jpg') no-repeat center;
+    background-size: cover;
+    height: 73vh;
     color: white;
+    text-shadow: .1em .1em var(--backpackDark);
     text-align: center;
-    font-family: var(--fontOne);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.lead{
+    font-size: 1.5em;
+    text-shadow: .05em .05em var(--backpackDark);
+    background: rgba(0, 0, 0, 0.5);
 }
 
