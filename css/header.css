@@ -12,7 +12,7 @@
 
 
 .jumbotron{
-    background: url('./assets/laptop_backpack_coffeemug.jpg') no-repeat center;
+    background: url('../assets/laptop_backpack_coffeemug.jpg') no-repeat center;
     background-size: cover;
     height: 88.5vh;
     color: white;
