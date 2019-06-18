@@ -1,0 +1,38 @@
+footer{
+    background-color: var(--coffeemuglight);
+    padding-top: 1em;
+    padding-bottom: .5em;
+}
+
+#linkedIn{
+    padding-left: .25em;
+}
+
+#gitHub{
+    padding-right: .25em;
+    padding-left: .25em;
+}
+
+#resume{
+    padding-right: .25em;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: white;
+}
+
+a:active{
+    color: white;
+} 
+
+.copyright{
+    padding-top: .5em;
+}

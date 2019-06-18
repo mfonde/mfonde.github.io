@@ -1,0 +1,90 @@
+#about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+}
+
+@media all and (max-width: 800px) {
+    #about{
+        justify-content: space-around;
+        flex-direction: column;
+    }
+}
+
+/* @media all and (max-width: 500px) {
+    #about {
+        flex-direction: column;
+    }
+} */
+
+#hello{
+    color: var(--backpackDark);
+    font-family: var(--scriptFont);
+    font-size: 3em;
+    padding-bottom: .5em;
+    text-align: center;
+}
+
+#aboutText{
+    order: 1;
+    flex-grow: 2;
+    flex-basis: 50vw;
+    color: #383838;
+    font-family: var(--myFont);
+    text-align: left;
+    padding-left: 2em;
+
+}
+
+#photoDiv{
+    order: 2;
+    flex-grow: 1;
+    flex-basis: 40vw;
+    padding-left: 4em;
+    /* padding-right: 4em;  */
+} 
+
+#photo{
+    max-width: 65%;
+    max-height: 65%;
+    border: .5em solid var(--coffeemuglight);
+}
+
+/* .grid{
+    display: grid;
+    grid-template-columns: [colOne] 25% [colTwo] 25% [colThree] 25% [colFour] 25% [endCol];
+    padding-top: 2.5em;
+}
+
+#columnOne{
+    grid-column-start: colOne;
+    grid-column-end: colTwo;
+    align-self: center;
+    justify-self: center;
+    text-align: left;
+    padding-left: 2em;
+}
+
+#columnTwo{
+    grid-column-start: colTwo;
+    grid-column-end: colThree;
+    align-self: center;
+    justify-self: center;
+    text-align: left;
+    padding-left: 2em;
+    padding-top: 2em;
+}
+
+#columnThree{
+    grid-column-start: colThree;
+    grid-column-end: colFour;
+    align-self: center;
+    justify-self: center;
+    text-align: left;
+    padding-left: 2em;
+}
+*/
+

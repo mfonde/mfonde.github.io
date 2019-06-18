@@ -1,0 +1,21 @@
+#contact{
+    background-color: white;
+    border-top: 3px solid var(--coffeemuglight);
+    color: var(--coffeemuglight);
+    padding-top: 3em;
+    text-align: center;
+}
+
+/* .container{
+    text-align: center;
+} */
+
+#form{
+    margin-left: 25%;
+    width: 50%;
+}
+
+#name{
+    padding-bottom: .5em;
+    padding-top: .5em;
+}

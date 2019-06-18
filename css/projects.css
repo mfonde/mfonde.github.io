@@ -1,0 +1,69 @@
+#projectHeader{
+    font-family: var(--myFont);
+    font-size: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#projects{
+    margin-top: none;
+    background-color: var(--coffeemuglight);
+    font-family: var(--myFont);
+}
+
+/* #projects::before{    
+    display: block;
+    content: " ";
+    margin-top: -8%;
+    height: 8%;
+    visibility: hidden;
+    pointer-events: none;
+} */
+
+#bubbles{
+    max-width: 190px;
+    border: .25em solid #ddd;
+    border-radius: 4px;
+}
+
+#bubbles:hover{
+    border: .25em solid rgba(0, 140, 186, 0.5);
+}
+
+#netflix{
+    max-width: 225px;
+    border: .25em solid #ddd;
+    border-radius: 4px;
+}
+
+#netflix:hover{
+    border: .25em solid rgba(0, 140, 186, 0.5);
+}
+
+#dishBuilder{
+    max-width: 225px;
+    border: .25em solid #ddd;
+    border-radius: 4px;
+}
+
+#dishBuilder:hover{
+    border: .25em solid rgba(0, 140, 186, 0.5);
+}
+
+#bubblesText{
+    font-family: var(--myFont);
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+#netflixText{
+    font-family: var(--myFont);
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+#dishBuilderText{
+    font-family: var(--myFont);
+    padding-top: 5%;
+    padding-bottom: 10%;
+}

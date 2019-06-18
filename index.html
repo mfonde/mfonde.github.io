@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Megan Fonde</title>
     <!-- BOOTSTRAP-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    <!-- GOOGLE FONTS-->
-   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=B612+Mono|Marck+Script|Roboto+Condensed&display=swap" rel="stylesheet">
    <!--MAIN CSS-->
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://kit.fontawesome.com/05c0a10024.js"></script>
 </head>
 <body>
   <!-- <section id="header">
@@ -27,8 +28,8 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                       <div class="navbar-nav" id="nav-content">
                         <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#about">About Me</a>
-                        <a class="nav-item nav-link" href="#projects">Projects</a>
+                        <a class="nav-item nav-link" href="#aboutJump">About Me</a>
+                        <a class="nav-item nav-link" href="#projectsJump">Projects</a>
                         <a class="nav-item nav-link" href="#contact">Contact</a>
                       </div>
                     </div>
@@ -39,36 +40,88 @@
     <section id="home">
             <header class="jumbotron jumbotron-fluid">
                     <div class="container">
-                      <h1 class="display-4">Megan Fonde</h1>
+                      <h1 class="display-4" id="name">Megan Fonde</h1>
                       <br>
                       
                       <p class="lead"><span class="tagLine">front-end developer</span> | <span class="tagline">designer</span> | <span class="tagline">empath</span></p>
                     </div>
                 </header>
     </section>
+    
+    <section>
+    <div class="sectionSplit">
+        <span id="aboutJump">&nbsp;</span>
+    </div>
+    </section>
+    <!--ABOUT-->
+    
+    <section>
+        
+      <div id="about">
+        <div id="aboutText">
+            <h2 id="hello">Hello, and Welcome!</h2>
+          <p>
+            My name is Megan Fonde. I started my career as a front-end developer and web designer at 1150 Academy in 2019. This intensive accelerated learning program is designed specifically to launch students into careers in development.
+            <br>
+            <br>
+            I have always been interested in design. For several years, I have been renovating abandoned homes in Indianapolis. Downtown Indy has long been in need of some attention and TLC. Luckily, some brilliant, creative, and determined people have come out of the woodwork in the last few decades to give the city just that! I have been fortunate enough to be a part of that revolution.  Creating something beautiful and functional, while keeping in mind the needs, habits, and lifestyles of the people who will be utilizing the final product, has been incredibly fun and rewarding. I am so excited to apply the skills I have developed to a new career!
+            <br>
+            <br>
+            Along with design, I am passionate about service. I consider customer service the keystone of everything I do professionally. From organizing events, to developing content for marketing collateral, to managing a busy restaurant, my goal is always to produce a memorable experience for the customer.
+        </p>
+        </div>
+        <div id="photoDiv">
+        <img src="../../HTMLCSSPreWork/3-assets/Remus and Me.jpg" class="ml-3" id="photo" alt="...">
+          </div>
+      </div>
+   </section>
+   <section>
+     <div class="sectionSplit2">
+
+     </div>
+   </section>
     <!--PROJECTS-->
+    <span id="projectsJump">&nbsp;</span>
     <section id="projects">
-            <div class="container">
+            <div class="container-fluid">
+              
+              <h2 id="projectHeader">Projects</h2>
                     <div class="row">
                       <div class="col-4 projects">
                         <p>CSS Creature</p>
+                        <a target="blank" href="https://codepen.io/mfonde/pen/EzMYgN"><img src="assets/CSS_Creature.png" id="bubbles"></a>
+                        <div id="bubblesText">
+                        <p>Our first class assignment, and my first tiime working with CSS and HTML. She is modeled after Bubbles, the Powerpuff Girl.</p>
+                        </div>
                       </div>
                       <div class="col-4 projects">
                         <p>Static Layout</p>
+                        <a target="blank" href="https://mfonde.github.io/static_layout/"><img src="assets/static_layout.png" id="netflix"></a>
+                        <div id="netflixText">
+                          <p>A recreation of the Netflix welcome page.</p>
+                        </div>
                       </div>
                       <div class="col-4 projects">
                         <p>API Project</p>
+                        <a target="blank" href="https://mfondedishbuilderapi.firebaseapp.com/"><img src="assets/API_project.png" id="dishBuilder"></a>
+                        <div id="dishBuilderText">
+                          <p>I built this app because I love food, but I can never decide what to make for dinner. Now Dish Builder does it for me! It utilizes the edamam API.</p>
+                        </div>
                       </div>
+                      <!-- <div class="col-4 projects">
+                        <p>Red Badge Project</p>
+                      </div> -->
                     </div>
                   </div>
 
     </section>
+    
     <!--CONTACT-->
     <section id="contact">
             <div class="container">
               <h2 class="text-center text-uppercase">Contact Me</h2>
               <div class="row">
-                <form action="https://formspree.io/meganfonde@gmail.com" method="POST">
+                <form action="https://formspree.io/meganfonde@gmail.com" method="POST" id="form">
                   <div class="control-group">
                     <div class="form-group">
                       <label>Name</label>
@@ -116,15 +169,29 @@
                   <div class="text-center">
                     <div id="success"></div>
                     <button type="submit" class="btn btn-lg btn-black">
-                      <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                      <i class="far fa-paper-plane" aria-hidden="true"></i>
                       Send Message
                     </button>
+                    
                   </div>
                 </form>
               </div>
             </div>
           </section>
+        <!--FOOTER-->
+          <footer>
+            <!--ICONS-->
+            <div class="icons">
+                <span><a href="https://drive.google.com/file/d/0B4sOJIg6gFjLdTI0bnVLLWJ0OHhxUzlZcXFFSGdlT0J3dnNv/view?usp=sharing" target="blank" id="resume" class="fas fa-briefcase fa-2x"></a></span>
+                <span><a href="https://github.com/mfonde" target="blank" id="gitHub" class="fab fa-github fa-2x"></a></span>
+                <span style="color:white;"><a href="https://www.linkedin.com/in/meganfonde" target="blank" id="linkedIn" class="fab fa-linkedin fa-2x"></a></span>
+            </div>
+            <div class="copyright">
+              <p>Copyright © Megan Fonde 2019. All rights reserved.</p>
 
+            </div>
+
+          </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
