@@ -50,7 +50,7 @@
 #photo{
     max-width: 65%;
     max-height: 65%;
-    border: .5em solid var(--coffeemuglight);
+    border: .5em solid var(--behindBackpackLeft);
 }
 
 /* .grid{
