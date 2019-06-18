@@ -21,11 +21,23 @@
 } */
 
 #hello{
-    color: var(--backpackDark);
+    color: var(--coffeemuglight);
     font-family: var(--scriptFont);
     font-size: 3em;
-    padding-bottom: .5em;
+    padding-top: 1em;
+    padding-bottom: .25em;
     text-align: center;
+}
+
+.split{
+    background-color: rgba(95, 123, 123, 0.5);
+    height: .3em;
+    width: 50%;
+    margin-bottom: 1em;
+}
+
+#bottom{
+    float: right;
 }
 
 #aboutText{
@@ -50,7 +62,7 @@
 #photo{
     max-width: 65%;
     max-height: 65%;
-    border: .5em solid var(--behindBackpackLeft);
+    border: .3em solid var(--coffeemuglight);
 }
 
 /* .grid{

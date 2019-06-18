@@ -30,7 +30,7 @@
                         <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" href="#aboutJump">About Me</a>
                         <a class="nav-item nav-link" href="#projectsJump">Projects</a>
-                        <a class="nav-item nav-link" href="#contact">Contact</a>
+                        <a class="nav-item nav-link" href="#contactJump">Contact</a>
                       </div>
                     </div>
                   </nav>
@@ -50,6 +50,11 @@
     
     <section>
     <div class="sectionSplit">
+        <div class="icons">
+            <span><a href="https://drive.google.com/file/d/0B4sOJIg6gFjLdTI0bnVLLWJ0OHhxUzlZcXFFSGdlT0J3dnNv/view?usp=sharing" target="blank" id="resume" class="fas fa-briefcase fa-sm"></a></span>
+            <span><a href="https://github.com/mfonde" target="blank" id="gitHub" class="fab fa-github fa-sm"></a></span>
+            <span style="color:white;"><a href="https://www.linkedin.com/in/meganfonde" target="blank" id="linkedIn" class="fab fa-linkedin fa-sm"></a></span>
+        </div>
         <span id="aboutJump">&nbsp;</span>
     </div>
     </section>
@@ -60,6 +65,9 @@
       <div id="about">
         <div id="aboutText">
             <h2 id="hello">Hello, and Welcome!</h2>
+            <div class="split" id="top">
+
+            </div>
           <p>
             My name is Megan Fonde. I started my career as a front-end developer and web designer at 1150 Academy in 2019. This intensive accelerated learning program is designed specifically to launch students into careers in development.
             <br>
@@ -69,23 +77,24 @@
             <br>
             Along with design, I am passionate about service. I consider customer service the keystone of everything I do professionally. From organizing events, to developing content for marketing collateral, to managing a busy restaurant, my goal is always to produce a memorable experience for the customer.
         </p>
+        <div class="split" id="bottom">
+              
+          </div>
         </div>
         <div id="photoDiv">
         <img src="./assets/RemusAndMe.jpg" class="ml-3" id="photo" alt="...">
           </div>
       </div>
    </section>
-   <section>
-     <div class="sectionSplit2">
-
-     </div>
+   <section class="sectionSplit2">
+      <p id="quote"> You have as much time in your day as Beyonce.</p>
    </section>
     <!--PROJECTS-->
-    <span id="projectsJump">&nbsp;</span>
+    <span id="projectsJump"></span>
     <section id="projects">
             <div class="container-fluid">
               
-              <h2 id="projectHeader">Projects</h2>
+              <h2 id="projectHeader">Projects <i class="fas fa-pencil-alt"></i></h2>
                     <div class="row">
                       <div class="col-4 projects">
                         <p>CSS Creature</p>
@@ -105,7 +114,7 @@
                         <p>API Project</p>
                         <a target="blank" href="https://mfondedishbuilderapi.firebaseapp.com/"><img src="assets/API_project.png" id="dishBuilder"></a>
                         <div id="dishBuilderText">
-                          <p>I built this app because I love food, but I can never decide what to make for dinner. Now Dish Builder does it for me! It utilizes the edamam API.</p>
+                          <p>I built this app because I love food, but I can never decide what to make for dinner. Now Dish Builder does it for me! It utilizes the edamam.com API.</p>
                         </div>
                       </div>
                       <!-- <div class="col-4 projects">
@@ -117,6 +126,7 @@
     </section>
     
     <!--CONTACT-->
+    <span id="contactJump">&nbsp;</span>
     <section id="contact">
             <div class="container">
               <h2 class="text-center text-uppercase">Contact Me</h2>

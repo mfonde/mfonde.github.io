@@ -7,7 +7,8 @@
 
 #projects{
     margin-top: none;
-    background-color: var(--coffeemuglight);
+    background-color: white;
+    color: var(--coffeemuglight);
     font-family: var(--myFont);
 }
 
@@ -22,7 +23,7 @@
 
 #bubbles{
     max-width: 190px;
-    border: .25em solid #ddd;
+    border: .25em solid var(--coffeemuglight);
     border-radius: 4px;
 }
 
@@ -32,7 +33,7 @@
 
 #netflix{
     max-width: 225px;
-    border: .25em solid #ddd;
+    border: .25em solid var(--coffeemuglight);
     border-radius: 4px;
 }
 
@@ -42,7 +43,7 @@
 
 #dishBuilder{
     max-width: 225px;
-    border: .25em solid #ddd;
+    border: .25em solid var(--coffeemuglight);
     border-radius: 4px;
 }
 
