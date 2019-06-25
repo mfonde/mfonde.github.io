@@ -1,8 +1,17 @@
-#nav-content{
-    
+#navBarContact{
+    color: black;
     }
-.navbar-brand{
-    
+
+#navBarProjects{
+    color: black;
+}
+
+#navBarAbout{
+    color: black;
+}
+
+#navBarExplore{
+    font-size: 1.5em;
 }
 
 .navbar{
@@ -11,6 +20,7 @@
     top: 0;
     width: 100%;
     height: 10%;
+    max-height: 110px;
     z-index: 100;
 
     /* background-size: cover;  */

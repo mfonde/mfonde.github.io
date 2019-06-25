@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Megan Fonde</title>
     <!-- BOOTSTRAP-->
@@ -21,16 +21,16 @@
     <!-- *NAVBAR-->
     <section id="navbar">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#">Explore</a>
+                    <a class="navbar-brand" id="navBarExplore" href="#">Explore</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                       <div class="navbar-nav" id="nav-content">
                         <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="#aboutJump">About Me</a>
-                        <a class="nav-item nav-link" href="#projectsJump">Projects</a>
-                        <a class="nav-item nav-link" href="#contactJump">Contact</a>
+                        <a class="nav-item nav-link" id="navBarAbout" href="#aboutJump">About Me</a>
+                        <a class="nav-item nav-link" id="navBarProjects" href="#projectsJump">Projects</a>
+                        <a class="nav-item nav-link" id="navBarContact" href="#contactJump">Contact</a>
                       </div>
                     </div>
                   </nav>
@@ -40,7 +40,7 @@
     <section id="home">
       <header class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4" id="name">Megan Fonde</h1>
+          <h1 class="display-4" id="myName">Megan Fonde</h1>
           <br>
           
           <p class="lead"><span class="tagLine">front-end developer</span> | <span class="tagline">designer</span> | <span class="tagline">empath</span></p>
@@ -96,21 +96,21 @@
               
               <h2 id="projectHeader">Projects <i class="fas fa-pencil-alt"></i></h2>
                     <div class="row">
-                      <div class="col-4 projects">
+                      <div class="col-lg projects">
                         <p>CSS Creature</p>
                         <a target="blank" href="https://codepen.io/mfonde/pen/EzMYgN"><img src="assets/CSS_Creature.png" id="bubbles"></a>
                         <div id="bubblesText">
                         <p>Our first class assignment, and my first time working with CSS and HTML. She is modeled after Bubbles, the Powerpuff Girl.</p>
                         </div>
                       </div>
-                      <div class="col-4 projects">
+                      <div class="col-lg projects">
                         <p>Static Layout</p>
                         <a target="blank" href="https://mfonde.github.io/static_layout/"><img src="assets/static_layout.png" id="netflix"></a>
                         <div id="netflixText">
                           <p>A recreation of the Netflix welcome page.</p>
                         </div>
                       </div>
-                      <div class="col-4 projects">
+                      <div class="col-lg projects">
                         <p>API Project</p>
                         <a target="blank" href="https://mfondedishbuilderapi.firebaseapp.com/"><img src="assets/API_project.png" id="dishBuilder"></a>
                         <div id="dishBuilderText">
