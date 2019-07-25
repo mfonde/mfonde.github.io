@@ -28,7 +28,7 @@
     background-color: var(--coffeemuglight);
     margin-top: 2em;
     margin-bottom: 2.75em;
-    text-align: center;
+    /* text-align: center; */
 }
 
 #quote{
@@ -37,7 +37,18 @@
     font-size: 3em;
     padding-top: .25em;
     max-width: 90%;
-    text-align: center;
+    text-align: left;
+    position: relative;
+    left: 1vw;
+}
+
+#beyonce{
+    color: white;
+    font-family: var(--scriptFont);
+    font-size: 3em;
+    padding-top: .25em;
+    max-width: 90%;
+    /* text-align: center; */
 }
 
 /* #credit{
