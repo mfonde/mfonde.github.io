@@ -14,12 +14,6 @@
     }
 }
 
-/* @media all and (max-width: 500px) {
-    #about {
-        flex-direction: column;
-    }
-} */
-
 #hello{
     color: var(--coffeemuglight);
     font-family: var(--scriptFont);
@@ -43,7 +37,7 @@
 #aboutText{
     order: 1;
     flex-grow: 2;
-    flex-basis: 50vw;
+    flex-basis: 60vw;
     color: #383838;
     font-family: var(--myFont);
     text-align: left;
@@ -55,15 +49,15 @@
 #photoDiv{
     order: 2;
     flex-grow: 1;
-    flex-basis: 40vw;
-    padding-left: 4em;
-    /* padding-right: 4em;  */
+    flex-basis: 30vw;
+    padding-right: 4em; 
 } 
 
 #photo{
     max-width: 65%;
     max-height: 65%;
-    border: .3em solid var(--coffeemuglight);
+    border: .3em solid rgba(95, 123, 123, 0.5);
+    /* background-color: var(--coffeemuglight); */
 }
 
 /* .grid{

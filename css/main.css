@@ -13,12 +13,22 @@
     width: 100%;
     background-color: var(--coffeemuglight);
     position: relative;
-    /* z-index: -1; */
     color: white;
     font-family: var(--scriptFont);
     font-size: 2.25em;
     padding-top: .7em;
-    /* border-bottom: 5px solid rgb(194, 193, 193); */
+}
+
+@media only screen and (min-device-width: 411px) and (max-device-width: 640px) and (orientation: landscape) {
+    .sectionSplit{
+        height: 25vh;
+    }
+}
+
+@media only screen and (min-device-width: 640px) and (max-device-width: 823px) and (orientation: landscape) {
+    .sectionSplit{
+        height: 20vh;
+    }
 }
 
 .sectionSplit2{
@@ -28,7 +38,6 @@
     background-color: var(--coffeemuglight);
     margin-top: 2em;
     margin-bottom: 2.75em;
-    /* text-align: center; */
 }
 
 #quote{
@@ -48,23 +57,12 @@
     font-size: 3em;
     padding-top: .25em;
     max-width: 90%;
-    /* text-align: center; */
 }
-
-/* #credit{
-    color: white;
-    font-family: var(--scriptFont);
-    font-size: 2.5em;
-    float: right;
-    padding-bottom: .25em;
-} */
 
 #aboutJump{
     margin-top: -3%;
     padding-bottom: none;
     display: block;
-    /* padding-bottom: 1em; */
-    /* font-size: 0em; */
 }
 
 #projectsJump{

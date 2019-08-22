@@ -97,3 +97,18 @@
     /* max-width: 30vw; */
     text-align: center;
 }
+
+#movieThoughts{
+    max-width: 27vw;
+    border: .25em solid var(--coffeemuglight);
+    border-radius: 4px;
+}
+
+#movieThoughts:hover{
+    border: .25em solid rgba(0, 140, 186, 0.5);
+
+}
+
+#movieThoughtsText{
+    text-align: center;
+}
