@@ -34,7 +34,7 @@
     float: right;
 }
 
-#aboutText{
+.aboutText{
     order: 1;
     flex-grow: 2;
     flex-basis: 60vw;
@@ -44,6 +44,16 @@
     padding-left: 2em;
     padding-right: 2em;
 
+}
+
+.aboutQuote{
+    order: 1;
+    flex-grow: 2;
+    flex-basis: 60vw;
+    color: #383838;
+    font-family: var(--myFont);
+    padding-left: 2em;
+    font-size: 1.7em;
 }
 
 #photoDiv{
