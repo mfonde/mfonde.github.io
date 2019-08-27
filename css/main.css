@@ -19,6 +19,10 @@
     padding-top: .7em;
 }
 
+.icons{
+    padding-bottom: 1em;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 640px) and (orientation: landscape) {
     .sectionSplit{
         height: auto;
