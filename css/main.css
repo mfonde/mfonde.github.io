@@ -17,6 +17,7 @@
     font-family: var(--scriptFont);
     font-size: 2.25em;
     padding-top: .7em;
+    padding-bottom: 1em;
 }
 
 .icons{
